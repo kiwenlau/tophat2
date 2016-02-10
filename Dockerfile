@@ -17,3 +17,5 @@ RUN cp bowtie2-2.1.0/bowtie2* /usr/local/bin/
 RUN cp tophat-2.0.9.Linux_x86_64/* /usr/local/bin/
 
 RUN rm -rf tophat* bowtie2* samtools*
+
+# sudo docker build -t kiwenlau/tophat2:2.0.9 .
